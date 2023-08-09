@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <Title>Michelle's Personalized Products</title>
+  <meta charset="utf-8">
+  <link href="personalize.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Michelle's Personalized Products</h1>
+    </header>
+    <nav>
+      <b>
+        <a href="index.html">Home</a> &nbsp;
+        <br>
+        <a href="products.html">Products</a> &nbsp;
+        <br>
+        <a href="orders.html">Orders</a> &nbsp;
+      </b>
+    </nav>
+    <main>
+      <h2>Place your order!</h2>
+      <p>Please fill out the form below with the items you'd like to purchase. Required items are marked with an
+        asterisk *.
+      </p>
+      <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+        <label for="myFName">* First Name:</label>
+        <input type="text" name="myFName" id="myFName" required="required">
+
+        <label for="myLName">* Last Name:</label>
+        <input type="text" name="myLName" id="myLName" required="required">
+
+        <label for="myEmail">* E-mail:</label>
+        <input type="email" name="myEmail" id="myEmail" required="required">
+
+        <label for="myPhone">* Phone:</label>
+        <input type="tel" name="myPhone" id="myPhone" required="required" maxlength="12">
+
+        <!-- FIRST ITEM -->
+        <label for="myItems">* Pick your items:</label>
+        <select size="1" name="myItems" id="myItems" required="required">
+          <option value="">Select your item for purchase</option>
+          <option value="Blanket30x40">Plush Fleece Blanket 30x40</option>
+          <option value="Blanket50x60">Plush Fleece Blanket 50x60</option>
+          <option value="Blanket60x80">Plush Fleece Blanket 60x80</option>
+          <option value="Pillowcase">Pillowcase</option>
+          <option value="Ornament">Christmas Ornament</option>
+          <option value="Keychain">Keychain</option>
+        </select>
+        <br>
+        <label for="myAmount">* Amount:</label>
+        <input type="number" name="myAmount" id="myAmount" required="required" min="1" max="20">
+        <br>
+
+        <!-- SECOND ITEM -->
+        <label for="myItems2">Pick your items:</label>
+        <select size="1" name="myItems2" id="myItems2">
+          <option value="select">Select your item for purchase</option>
+          <option value="Blanket30x40">Plush Fleece Blanket 30x40</option>
+          <option value="Blanket50x60">Plush Fleece Blanket 50x60</option>
+          <option value="Blanket60x80">Plush Fleece Blanket 60x80</option>
+          <option value="Pillowcase">Pillowcase</option>
+          <option value="Ornament">Christmas Ornament</option>
+          <option value="Keychain">Keychain</option>
+        </select>
+        <br>
+        <label for="myAmount2">Amount:</label>
+        <input type="number" name="myAmount2" id="myAmount2" min="1" max="20">
+        <br>
+        <!-- THIRD ITEM -->
+        <label for="myItems3">Pick your items:</label>
+        <select size="1" name="myItems3" id="myItems3">
+          <option value="select">Select your item for purchase</option>
+          <option value="Blanket30x40">Plush Fleece Blanket 30x40</option>
+          <option value="Blanket50x60">Plush Fleece Blanket 50x60</option>
+          <option value="Blanket60x80">Plush Fleece Blanket 60x80</option>
+          <option value="Pillowcase">Pillowcase</option>
+          <option value="Ornament">Christmas Ornament</option>
+          <option value="Keychain">Keychain</option>
+        </select>
+        <br>
+
+        <label for="myAmount3">Amount:</label>
+        <input type="number" name="myAmount3" id="myAmount3" min="1" max="20">
+        <br>
+
+        <!-- FOURTH ITEM -->
+        <label for="myItems4">Pick your items:</label>
+        <select size="1" name="myItems4" id="myItems4">
+          <option value="select">Select your item for purchase</option>
+          <option value="Blanket30x40">Plush Fleece Blanket 30x40</option>
+          <option value="Blanket50x60">Plush Fleece Blanket 50x60</option>
+          <option value="Blanket60x80">Plush Fleece Blanket 60x80</option>
+          <option value="Pillowcase">Pillowcase</option>
+          <option value="Ornament">Christmas Ornament</option>
+          <option value="Keychain">Keychain</option>
+        </select>
+        <br>
+
+        <label for="myAmount4">Amount:</label>
+        <input type="number" name="myAmount4" id="myAmount4" min="1" max="20">
+        <br>
+
+        <!-- FIFTH ITEM -->
+        <label for="myItems5">Pick your items:</label>
+        <select size="1" name="myItems5" id="myItems5">
+          <option value="select">Select your item for purchase</option>
+          <option value="Blanket30x40">Plush Fleece Blanket 30x40</option>
+          <option value="Blanket50x60">Plush Fleece Blanket 50x60</option>
+          <option value="Blanket60x80">Plush Fleece Blanket 60x80</option>
+          <option value="Pillowcase">Pillowcase</option>
+          <option value="Ornament">Christmas Ornament</option>
+          <option value="Keychain">Keychain</option>
+        </select>
+        <br>
+
+        <label for="myAmount5">Amount:</label>
+        <input type="number" name="myAmount5" id="myAmount5" min="1" max="20">
+        <br>
+
+        <!-- SIXTH ITEM -->
+        <label for="myItems6">Pick your items:</label>
+        <select size="1" name="myItems6" id="myItems6">
+          <option value="select">Select your item for purchase</option>
+          <option value="Blanket30x40">Plush Fleece Blanket 30x40</option>
+          <option value="Blanket50x60">Plush Fleece Blanket 50x60</option>
+          <option value="Blanket60x80">Plush Fleece Blanket 60x80</option>
+          <option value="Pillowcase">Pillowcase</option>
+          <option value="Ornament">Christmas Ornament</option>
+          <option value="Keychain">Keychain</option>
+        </select>
+        <br>
+
+        <label for="myAmount6">Amount:</label>
+        <input type="number" name="myAmount6" id="myAmount6" min="1" max="20">
+        <br>
+
+        <p>Select at least one picture. If you are buying more than one item,
+          it is crucial you specify in the comments WHICH picture goes to WHICH item and each
+          image is of high enough quality. </p>
+
+        <div id="photos">
+          <input type="file" name="myPhotos" id="myPhotos" multiple="multiple" accept="image/jpeg, image/png, image/jpg"
+            required="required">
+          <output></output>
+        </div>
+
+        <br>
+
+        <label for="Comments"> Comments:</label>
+        <textarea name="Comments" id="Comments" cols="70" rows="20"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+      <div>
+        Michelle's Personalized Products<br>
+        10958 Sunup Way<br>
+        South Jordan, UT 84009<br>
+        801-589-1102<br>
+        <br>
+        <img src="keychain.PNG" alt="Picture of a van with white
+         text decals on the back that state 'Your Logo' under
+         neath that states, 'Your text' a line under neath it, 
+         and below that, 'Independent Distributor #000000' blow 
+         that 'Your name' below that 'Your website, Email or Text 
+          line' below that the phone number '555-555-1234'" height="200" style="width: 100%;">
+      </div>
+    </main>
+    <footer>
+      <small><i>
+          Copyright &copy; 2023 Michelle's Personalized Products<br>
+          <a href="mailto:stacey.williams@davistech.edu">
+            stacey.williams@davistech.edu
+          </a>
+        </i></small>
+    </footer>
+  </div>
+</body>
+
+</html>

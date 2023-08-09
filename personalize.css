@@ -1,0 +1,140 @@
+body {
+    font-family: "Papyrus", fantasy;
+    color: #110636;
+}
+
+header {
+    background-image: url(banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 1500%;
+    text-indent: 1em;
+    background-color: #1f44e9;
+    color: #ffbb00;
+}
+
+#wrapper {
+    background-color: #72e9ee;
+}
+
+nav {
+    float: left;
+    width: 110px;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul {list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+nav a { text-decoration: none; 
+       display: block;
+       padding: 1em 2em;
+}
+nav a:link { color: #0509ee; }
+nav a:visited { color: #480f53; }
+nav a:hover { background-color: #eecd73;
+              text-decoration: none;
+       display: block;
+       padding: 1em;
+       transition: background-color 2s linear;
+}
+main {
+    margin-left: 150px;
+    background-color: #72e9ef;
+    background-image: linear-gradient(to bottom, #72e9ef, #FF7300);
+    padding: 20px;
+    display: block;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: "Papyrus", Fantasy;
+}
+
+h2 {
+    color: #e26905;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+#list {
+    list-style-image: url(marker.png);
+}
+
+footer {
+    margin-left: 150px;
+    clear: right;
+    padding-bottom: 20px;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Georgia, serif;
+    background-color: #ff7300;
+
+}
+
+#contact {
+    font-size: 100%;
+}
+
+#special ul{
+    list-style-type: none;
+
+}
+
+table { 
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+    
+}
+td, th { 
+    border: 2px solid #3399CC; 
+    padding: 0px;
+}
+td {
+    text-align: center;
+    padding: 5px;
+  
+}
+.text {
+    text-align: left;
+}
+.cost {
+    text-align: center;
+    width: 8%
+}
+.size {
+    text-align: center;
+    width: 20%
+}
+#photos {
+    padding-left: 148px;
+}
+tr:nth-of-type(odd) { 
+    background-color:  #BDDFF0;
+}
+tr:nth-of-type(even) { 
+    background-color:  #f0e0bd;
+}
+label {
+float: left;
+display: block;
+text-align: right;
+width: 140px;
+padding-right: 5px;
+}
+input {
+display: block;
+margin-bottom: 20px;
+}
+textarea {
+display: block;
+margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+
+
